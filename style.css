@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  background-image: url("./images/temple.jpeg");
+  height: 1000px;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-weight: bold;
+  font-size: 100px;
+  text-align: center;
+  color: red;
+  border: 5px solid white;
+  border-radius: 10px;
+  position: relative;
+  top: 400px;
+  letter-spacing: 5px;
+  font-family: "Lobster", cursive;
+}
+.paragraph {
+  text-align: center;
+  font-weight: none;
+  color: red;
+  font-family: "Lobster", cursive;
+  margin: 20px;
+  font-size: 20px;
+  letter-spacing: 8px;
+  word-spacing: 2px;
+  border: 3px, solid, red;
+}
+body {
+  background: aqua;
+}
+.button li {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+  border: 1px solid #fff;
+  background: red;
+  text-align: center;
+  text-transform: none;
+  text-decoration: none;
+  height: 60px;
+  width: 80px;
+  position: static;
+  margin: 10px;
+  justify-content: center;
+  padding: 0;
+}
+a:hover {
+  color: green;
+}
+a:visited {
+  color: white;
+}
+h2 {
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 5px;
+  text-decoration: underline;
+  font-family: "Lobster", cursive;
+  color: red;
+}
+span {
+  position: relative;
+  left: 460px;
+  bottom: 64px;
+  color: red;
+}
